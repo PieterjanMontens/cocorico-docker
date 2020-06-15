@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM i386/alpine:3.8
 
 ENV COMPOSER_ALLOW_SUPERUSER=1 \
     COMPOSER_HOME=/home/cocorico \
